@@ -1,14 +1,14 @@
 // import './App.css';
 import React from 'react';
-// import TodoFeature from './features/todo';
-import AlbumFeature from './features/Album';
+import TodoFeature from './features/todo';
+// import AlbumFeature from './features/Album';
 
 function App() {
 
   return (
     <div className="App">
-      {/* <TodoFeature /> */}
-      <AlbumFeature />
+      <TodoFeature />
+
     </div>
   );
 }
